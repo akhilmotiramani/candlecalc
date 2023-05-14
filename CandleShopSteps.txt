@@ -1,0 +1,108 @@
+Create new object called candleOne with empty parameters
+Create new object called candleTwo with empty parameters
+Create new object called candleThree with empty parameters
+
+Create global candleOne quanitity varible = 0 
+Create global candleTwo quanitity varible = 0 
+Create global candleThree quanitity varible = 0 
+
+Make 3 empty string varible for three candle names 
+Make 3 empty int varible for three candle types 
+Make 3 empty double varible for three candle prices
+Make 3 empty int varible for three candle times 
+
+string varible correctInfo, correctInfo2 and correctInfo3 all are "no"
+
+While correctinfo == no
+    Ask owner for candleone name, type, cost and time 
+    each input is assigned to varibles candleOneName, candleOneType, candleOnePrice and candleOneTime
+    User setter method to set candleOneName, candleOneType, candleOnePrice and candleOneTime into the candleOne Object
+    Print CandleOne with values
+    Ask owner if the information is correct 
+    correctInfo = input by owner
+
+While correctinfo2 == no
+    Ask owner for candleTwo name, type, cost and time 
+    each input is assigned to varibles candleTwoName, candleTwoType, candleTwoPrice and candleTwoTime
+    User setter method to set candleTwoName, candleTwoType, candleTwoPrice and candleTwoTime into the candleTwo Object
+    Print CandleTwo with values
+    Ask owner if the information is correct 
+    correctInfo2 = input by owner
+
+While correctinfo3 == no
+    Ask owner for candleThree name, type, cost and time 
+    each input is assigned to varibles candleThreeName, candleThreeType, candleThreePrice and candleThreeTime
+    User setter method to set candleThreeName, candleThreeType, candleThreePrice and candleThreeTime Object
+    Print CandleThree with values
+    Ask owner if the information is correct 
+    correctInfo3 = input by owner
+
+
+string shopAgain = yes 
+While shopAgain = yes 
+
+    Print all three candle values 
+
+        Ask user quanitity of candle one
+        int candleOneQuant = input 
+        Ask user quanitity of candle two
+        int candleTwoQuant = input 
+        Ask user quanitity of candle three
+        int candleThreeQuant = input 
+
+        subTotal = (candleOneQuant * candleOneCost)+(candleTwoQuant * candleTwoCost)+(candleThreeQuant * candleThreeCost)
+    
+
+
+        tell user subtotal and assign subtotal value to finalprice 
+
+        If (subTotal < 20)
+        Tells the user there will be no discount given 
+        finalPrice = subTotal
+        Else if ((20 < subTotal) && (subTotal< 35))
+            finalPrice= subTotal *.95
+        Else if ((35 < subTotal) && ( subTotal < 55))
+            finalPrice = subTotal*.93
+        Else if ((55 < subTotal) && (subTotal < 100))
+            finalPrice = subTotal * .90
+        Else 
+                finalPrice = subTotal * .80;
+
+                burnTimeTotal = (candleOneQuant * candleOneTime) + (candleTwoQuant* candleTwoTime) + (candleThreeQuant* candleThreeTime);
+
+                costPerMin = finalPrice/burnTimeTotal
+
+
+
+        if (!(subTotal == finalPrice))
+            Calculate subCostPerMin = subTotal/burnTimeTotal
+            Tells the user how much their cost per minute would have been if they didn’t have their discount
+            savings = subTotal - finalPrice
+            Thanks the user for their time and tells them how much money they saved
+        Else 
+            Thanks the user for their time and tells them to come back again
+
+
+        For loop that goes through candleOneQuant and prints * for every int 
+        For loop that goes through candleTwoQuant and prints + for every int 
+        For loop that goes through candleThreeQuant and prints # for every int 
+
+
+
+        "Would you like to shop again? (yes/no)"
+
+
+          shopAgain = scanner.nextLine();
+
+
+
+
+
+
+
+
+
+
+
+
+

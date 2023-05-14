@@ -1,0 +1,10 @@
+1. Used Candle.java for method calls
+Asked TAs for guidance on project 
+
+2. I added while loops that allows the shop owner to redo their entry and also allow the shopper to re-shop
+
+3. Not incomplete
+
+4. Challenge I faced was being able to use the public Candle class in another file at first, I had to ask the TAs to help me with the various methods and calls 
+
+5. I learned how to use methods and calls to get various varible values and set varible values
